@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.0beta2 (unknown)"
+   id="svg1532"
+   version="1.1"
+   viewBox="0 0 49.743782 49.74308"
+   height="49.74308mm"
+   width="49.743782mm">
+  <defs
+     id="defs1526" />
+  <sodipodi:namedview
+     inkscape:window-maximized="1"
+     inkscape:window-y="27"
+     inkscape:window-x="1280"
+     inkscape:window-height="927"
+     inkscape:window-width="1280"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="36.091422"
+     inkscape:cx="98.029519"
+     inkscape:zoom="1.979899"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata1529">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-43.919776,-113.46774)"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Calque 1" />
+  <g
+     transform="translate(-43.919776,-113.46774)"
+     inkscape:label="Calque 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <path
+       inkscape:connector-curvature="0"
+       id="path911"
+       style="fill:none;stroke:#ffffff;stroke-width:1.41111;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+       d="m 92.958002,138.33929 c 0,3.56555 -0.772189,6.95073 -2.158466,9.99743 -3.802859,8.35781 -12.226872,14.16855 -22.008223,14.16855 -13.346641,0 -24.165982,-10.81934 -24.165982,-24.16598 0,-13.34629 10.819341,-24.16599 24.165982,-24.16599 13.346995,0 24.166689,10.8197 24.166689,24.16599 z"
+       sodipodi:nodetypes="ssssss" />
+    <text
+       y="145.83821"
+       x="48.727959"
+       id="text915"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.2602px;font-family:'ChunkFive Roman';-inkscape-font-specification:ChunkFive-Roman;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"><tspan
+         style="stroke-width:0.352777"
+         id="tspan913"
+         sodipodi:role="line"
+         y="145.83821"
+         x="48.727959 56.574482 61.257874 70.01165 78.765427">PIZZA</tspan></text>
+    <text
+       y="152.53514"
+       x="60.860554"
+       id="text919"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.352777"
+         id="tspan917"
+         sodipodi:role="line"
+         y="152.53514"
+         x="60.860554 62.860039 64.926178 66.609077 67.469971 68.330864 70.20816 72.368713 74.545937">EST. 1988</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path929"
+       style="fill:#8dc104;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="M 63.145422,134.63822 H 51.8523 v -3.02648 h 11.293122 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path931"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="M 74.43819,134.63822 H 63.145422 v -3.02648 H 74.43819 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path933"
+       style="fill:#ff1b3b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="M 85.730607,134.63822 H 74.43819 v -3.02648 h 11.292417 z" />
+    <text
+       y="124.35821"
+       x="59.541092"
+       id="text937"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.352777"
+         id="tspan935"
+         sodipodi:role="line"
+         y="124.35821"
+         x="59.541092 62.086021 64.767044 67.216713 70.775528 71.850655 74.484047">PREMIUM</tspan></text>
+    <text
+       y="129.53"
+       x="55.999027"
+       id="text941"
+       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:5.77027px;font-family:Aleo;-inkscape-font-specification:Aleo-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"><tspan
+         style="stroke-width:0.352777"
+         id="tspan939"
+         sodipodi:role="line"
+         y="129.53"
+         x="55.999027 60.286343 64.406326 68.860977 72.15004 73.909981 77.539482">QUALITY</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path953"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="m 73.059147,155.31259 -1.395235,1.39594 1.395235,1.39524 1.39559,-1.39595 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path957"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="m 68.791349,155.31259 -1.395236,1.39594 1.395236,1.39524 1.395589,-1.39595 z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path961"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.352777"
+       d="m 64.5239,155.31259 -1.395589,1.39594 1.395589,1.39524 1.395236,-1.39595 z" />
+  </g>
+</svg>
