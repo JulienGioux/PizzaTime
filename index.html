@@ -19,28 +19,29 @@
 
     <!-- NAVBAR -->
     <nav class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerPizza" aria-controls="navbarTogglerPizza" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerPizza">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Cat1">Base Tomate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Cat2">Base Crème</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Cat3">Nos créations</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#infos">Informations</a>
-          </li>
-        </ul>
-      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerPizza"
+            aria-controls="navbarTogglerPizza" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerPizza">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href>Accueil<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Cat1">Base Tomate</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Cat2">Base Crème</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Cat3">Nos créations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#infos">Informations</a>
+                </li>
+            </ul>
+        </div>
     </nav>
     <!-- CATEGORIE 1 BASE TOMATE -->
     <section id="Cat1">
@@ -49,15 +50,43 @@
             <!-- CARD1 -->
             <div class="card" style="width: 18rem;">
                 <div class="card-header">Pizza Margherita</div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-                    <span class="badge badge-secondary">7€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">7€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -67,15 +96,43 @@
                 <div class="card-header">
                     Pizza Margherita Burrata
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-                    <span class="badge badge-secondary">10€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">10€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,15 +142,43 @@
                 <div class="card-header">
                     Pizza Royale
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-                    <span class="badge badge-secondary">10€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">10€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -108,15 +193,43 @@
                 <div class="card-header">
                     Pizza 4 Fromages
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-                    <span class="badge badge-secondary">12€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">12€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,15 +238,43 @@
                 <div class="card-header">
                     Pizza Savoyarde
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-                    <span class="badge badge-secondary">12€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">12€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,17 +283,43 @@
                 <div class="card-header">
                     Pizza Chèvre Miel
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-
-                    <h3><span class="badge badge-secondary">12€</span></h3>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger align-self-end" data-toggle="popover"
-                            title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary align-self-end">Commander</a>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <h3><span class="badge badge-secondary">12€</span></h3>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger align-self-end" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal align-self-end">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -167,58 +334,137 @@
                 <div class="card-header">
                     Pizza Originale
                 </div>
-                <img class="card-img-top" src="..." alt="Card image cap">
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
                 <div class="card-body">
                     <!-- INSERT IMAGE HERE -->
-
-                    <span class="badge badge-secondary">10€</span>
-                    <div class="d-flex justify-content-end">
-                        <button type="button" class="btn btn-sm btn-danger" data-toggle="popover" title="Popover title"
-                            data-content="And here's some amazing content. It's very engaging. Right?">+
-                            d'infos</button>
-                        <a href="#" class="btn btn-sm btn-primary">Commander</a>
-                    </div>
-                </div>
-            </div>
-                <!-- CARD2 -->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                        Pizza Salmone
-                    </div>
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <!-- INSERT IMAGE HERE -->
-
-                        <span class="badge badge-secondary">15€</span>
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">10€</span>
+                        </div>
                         <div class="d-flex justify-content-end">
                             <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
                                 title="Popover title"
                                 data-content="And here's some amazing content. It's very engaging. Right?">+
                                 d'infos</button>
-                            <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!-- CARD3 -->
-                <div class="card" style="width: 18rem;">
-                    <div class="card-header">
-                        Pizza Horly's
-                    </div>
-                    <img class="card-img-top" src="..." alt="Card image cap">
-                    <div class="card-body">
-                        <!-- INSERT IMAGE HERE -->
-
-                        <span class="badge badge-secondary">12€</span>
+            </div>
+            <!-- CARD2 -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    Pizza Salmone
+                </div>
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <!-- INSERT IMAGE HERE -->
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">15€</span>
+                        </div>
                         <div class="d-flex justify-content-end">
                             <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
                                 title="Popover title"
                                 data-content="And here's some amazing content. It's very engaging. Right?">+
                                 d'infos</button>
-                            <a href="#" class="btn btn-sm btn-primary">Commander</a>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- CARD3 -->
+            <div class="card" style="width: 18rem;">
+                <div class="card-header">
+                    Pizza Horly's
+                </div>
+                <img class="card-img-top" src="assets/img/margherita.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <!-- INSERT IMAGE HERE -->
+                    <div class="d-flex justify-content-between">
+                        <div class="d-flex text-left">
+                            <span class="badge badge-secondary">12€</span>
+                        </div>
+                        <div class="d-flex justify-content-end">
+                            <button type="button" class="btn btn-sm btn-danger" data-toggle="popover"
+                                title="Popover title"
+                                data-content="And here's some amazing content. It's very engaging. Right?">+
+                                d'infos</button>
+                            <button type="button" class="btn btn-sm btn-primary" data-toggle="modal"
+                                data-target="#exampleModal">Commander</button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Bon Appétit!</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </section>
     <!-- FOOTER -->
