@@ -1,3 +1,10 @@
+.Header-Bg {
+    height: 200px;
+    background-image: url("../img/hemant-latawa-IfQlwNqJqV8-unsplash.jpg");
+    background-size: cover;
+    background-position: right 35% bottom 45%;
+}
+
 footer ul{
 list-style: none;
 }
