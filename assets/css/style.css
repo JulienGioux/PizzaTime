@@ -30,14 +30,14 @@ body {
 .font-small {
     font-size: .8rem;
 }
-.w-max-sd {
-    min-width: 240px;
+.w-minmax {
+    min-width: 200px;
     max-width: 330px;
 }
-.w-minmax {
+.w-min-max-cont {
     min-width: max-content;
 }
 .anchor-pos-nav {
     position: relative;
-    top: -50px;
+    top: -40px;
 }
