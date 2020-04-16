@@ -12,3 +12,7 @@
 .w-minmax {
     min-width: max-content;
 }
+
+.popover {
+    border: 2px solid #343a40;
+  }
