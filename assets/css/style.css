@@ -8,7 +8,9 @@
     background-position: right 35% bottom 45%;
 }
 
-
+.w-max-sd {
+    max-width: 300px;
+}
 .w-minmax {
     min-width: max-content;
 }
