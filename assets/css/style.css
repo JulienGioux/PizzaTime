@@ -12,7 +12,6 @@
     text-orientation: upright;
     text-align: center;
 }
-
 .bg-cream {
     background-color: lemonchiffon;
 }
@@ -21,7 +20,16 @@ header h1{
     font-size: 3rem;
     text-decoration: underline;
 }
-
+.font-niconne {
+    font-family: 'Niconne', cursive;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.font-small {
+    font-size: .8rem;
+}
 .w-max-sd {
     min-width: 240px;
     max-width: 330px;
@@ -29,7 +37,6 @@ header h1{
 .w-minmax {
     min-width: max-content;
 }
-
 .anchor-pos-nav {
     position: relative;
     top: -50px;
