@@ -11,6 +11,7 @@
 </head>
 
 <body class="posrel" data-spy="scroll" data-target="#PizzaNavBar" data-offset="1">
+    
     <!-- HEADER -->
     <header class="Header-Bg">
         <img class="m-1" src="assets/img/logo.svg" alt="logo pizza" height="100px">
@@ -18,13 +19,13 @@
     </header>
 
     <!-- NAVBAR -->
-    <nav id="PizzaNavBar" class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark">
+    <nav id="PizzaNavBar" class="navbar sticky-top navbar-expand-sm navbar-dark bg-dark py-0">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerPizza"
             aria-controls="navbarTogglerPizza" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerPizza">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <ul class="navbar-nav mr-auto mt-0">
                 <li class="nav-item">
                     <a class="nav-link" href>Accueil</a>
                 </li>
@@ -44,8 +45,9 @@
         </div>
     </nav>
  
-    <!-- CATEGORIE 1 BASE TOMATE -->
+    <!-- ALL CATEGORIES -->
     <section>
+        <!-- CATEGORIE 1 BASE TOMATE -->
         <section id="Cat1">
             <div class="d-flex flex-row justify-content-around mt-5 mb-5">
                 <!-- FLECHE GAUCHE -->
@@ -476,16 +478,25 @@
                     </div>
                 </div>
             </div>
-            </div>
         </section>
     </section>
+    
     <!-- FOOTER -->
-    <footer id="infos" class="d-flex flex-row">
-        <div>
-            <h1 class="h2">Adresse :</h1>
-            <p>43 Rue Augustin Normand, 76600 Le Havre</p>
-            <ul>
-                <h2>Horaires :</h2>
+    <footer id="infos" class="d-flex flex-row flex-wrap justify-content-center bg-dark text-light">
+        <div class="m-5 w-minmax">
+            <ul class="list-unstyled">
+                <li>
+                    <h1 class="h4">Adresse :</h1>
+                    <address>
+                        Pizza Time,<br>
+                        43 Rue Augustin Normand,<br>
+                        76600 Le Havre
+                    </address>
+                    <p>Téléphone 02.77.00.05.44</p>
+                </li>
+                <li>               
+                    <h1 class="h4">Horaires :</h2>
+                </li>
                 <li>Lundi : Fermé</li>
                 <li> Mardi : 11:00-14:00, 18:00-22:30</li>
                 <li>Mercredi : 11:00-14:10, 18:00-22:30</li>
@@ -494,10 +505,11 @@
                 <li> Samedi : 11:00-14:10, 18:00-22:30</li>
                 <li> Dimanche : 18:00-22:30</li>
             </ul>
-            <p>Téléphone 02.77.00.05.44</p>
         </div>
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.902650153913!2d0.10073361602753143!3d49.48634587935391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02ed8bbceaaab%3A0xb205562c206a014!2sHorly&#39;s%20Pizza!5e0!3m2!1sfr!2sfr!4v1586937726120!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <div class="m-5">
+            <h1 class="h4">Plan d'accès</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2591.902650153913!2d0.10073361602753143!3d49.48634587935391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e02ed8bbceaaab%3A0xb205562c206a014!2sHorly&#39;s%20Pizza!5e0!3m2!1sfr!2sfr!4v1586937726120!5m2!1sfr!2sfr" width="300" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>    
     </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
