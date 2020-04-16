@@ -16,6 +16,10 @@
 .bg-cream {
     background-color: lemonchiffon;
 }
+header h1{
+    font-family: 'Niconne', cursive;
+}
+
 .w-max-sd {
     min-width: 280px;
     max-width: 350px;
@@ -23,3 +27,7 @@
 .w-minmax {
     min-width: max-content;
 }
+
+.popover {
+    border: 2px solid #343a40;
+  }
